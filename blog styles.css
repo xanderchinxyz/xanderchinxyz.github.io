@@ -1,0 +1,36 @@
+header h1 {
+    font-size: 36px;
+}
+.post {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    border-bottom: 1px solid gray;
+    border-top:1px solid gray;
+    transition: 0.3s ease;
+}
+.post:hover {
+    cursor: default;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.post a h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: black
+}
+.post h2:hover {
+    cursor: pointer;
+    text-decoration: underline 1px;
+}
+.post p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.important{
+    /*border: 2px solid gold*/
+}
