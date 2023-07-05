@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="currentFill" stroke="currentColor" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 310">
+  <line x1="5" y1="5" x2="5" y2="305" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="305" y1="305" x2="5" y2="305" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="5" y1="5" x2="305" y2="5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="305" y1="5" x2="305" y2="305" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <g>
+    <polygon points="117.5 42.5 267.5 267.5 192.5 267.5 42.5 42.5 117.5 42.5"/>
+    <g stroke="none">
+      <line x1="42.5" y1="42.5" x2="192.5" y2="267.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line x1="267.5" y1="267.5" x2="117.5" y2="42.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line x1="42.5" y1="42.5" x2="117.5" y2="42.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+      <line x1="192.5" y1="267.5" x2="267.5" y2="267.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+    </g>
+  </g>
+  <line x1="267.5" y1="42.5" x2="192.5" y2="42.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="42.5" y1="267.5" x2="117.5" y2="267.5" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="117.5" y1="267.5" x2="142.5" y2="230" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="42.5" y1="267.5" x2="105" y2="180" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="142.5" y1="230" x2="105" y2="180" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="267.5" y1="42.5" x2="205" y2="130" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="192.5" y1="42.5" x2="167.5" y2="80" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="205" y1="130" x2="167.5" y2="80" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="10"/>
+  <line x1="230" y1="42.5" x2="192.5" y2="105" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+  <line x1="80" y1="267.5" x2="117.5" y2="205" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+</svg>
