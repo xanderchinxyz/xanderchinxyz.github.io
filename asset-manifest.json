@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/css/main.de13e687.css",
-    "main.js": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/main.7097b2dd.js",
+    "main.js": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/main.c3e107f4.js",
     "static/js/787.e9c09f35.chunk.js": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/787.e9c09f35.chunk.js",
     "static/media/DER.pdf": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/media/DER.d7912f2eeac0141d58b1.pdf",
     "static/media/cao.png": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/media/cao.f6ef6e4cbcb2dcb59b01.png",
@@ -9,11 +9,11 @@
     "static/media/logo2.svg": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/media/logo2.eeb1b49bf3156f9fd091b563f12df25a.svg",
     "index.html": "/xanderchinxyz.github.io/xanderchinxyz.github.io/index.html",
     "main.de13e687.css.map": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/css/main.de13e687.css.map",
-    "main.7097b2dd.js.map": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/main.7097b2dd.js.map",
+    "main.c3e107f4.js.map": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/main.c3e107f4.js.map",
     "787.e9c09f35.chunk.js.map": "/xanderchinxyz.github.io/xanderchinxyz.github.io/static/js/787.e9c09f35.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de13e687.css",
-    "static/js/main.7097b2dd.js"
+    "static/js/main.c3e107f4.js"
   ]
 }
