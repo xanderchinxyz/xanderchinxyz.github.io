@@ -7,6 +7,26 @@ const clickable = {
 
 const posts = [
     {   
+        title: 'INFU (I\'ll Never Forget U) - 2nd Place & Best Use of Google Cloud', 
+        desc:
+            <p>
+                Worked with a team of 4 to develop a webapp and wearable that helps a user remember people's names and the
+                conversations that they've had with them using facial recognition, Google Cloud Speech to Text API, hardware, 
+                summaraization with the OpenAI API, and databases. My most complex hackathon project so far!
+            </p>,
+        link: 'https://devpost.com/software/infu'
+    },
+    {   
+        title: 'Visionary - Most Innovative Eye Tracking Application', 
+        desc:
+            <p>
+                Worked with a team of 4 to develop a webapp that uses Adhawk eye tracking glasses to reduce myopia by ensuring
+                a user looks 20 feet away for 20 seconds after 20 minutes of staring at their screen and developing an eye movement
+                game. Used Python, Flask, React, React Three Fiber, and Firebase to log eye data to gauge eye health.
+            </p>,
+        link: 'https://devpost.com/software/visionary-bzvo5p'
+    },
+    {   
         title: 'Predicting Hotel Bookings - 1st Place', 
         desc:
             <p>

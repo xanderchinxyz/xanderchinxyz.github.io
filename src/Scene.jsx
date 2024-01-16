@@ -141,7 +141,7 @@ const SunMoon = ({setTextCol,
         scale={props.scaleSun}
         ref={sunMesh}
       >
-        <sphereBufferGeometry attach='geometry' args={[1, 30]}/>
+        <sphereBufferGeometry attach='geometry' args={[1.1, 30]}/>
         <meshStandardMaterial attach='material' color='#800000' opacity={sunOpacity} transparent/>
       </a.mesh>
       <a.mesh 
@@ -160,7 +160,7 @@ const SunMoon = ({setTextCol,
         scale={props.scaleMoon}
         ref={moonMesh}
       >
-        <sphereBufferGeometry attach='geometry' args={[0.9, 30]}/>
+        <sphereBufferGeometry attach='geometry' args={[1, 30]}/>
         <meshStandardMaterial attach='material' color='#f7e190' opacity={moonOpacity} transparent/>
       </a.mesh>
     </a.group>
@@ -181,18 +181,18 @@ function Scene({setTextCol}) {
   useCursor(grab, 'grab', 'auto')
   useCursor(grabbing, 'grabbing', 'auto')
 
-  const [xCloud1, setXCloud1] = useState(3.3)
-  const [xCloud2, setXCloud2] = useState(8.6)
+  const [xCloud1, setXCloud1] = useState(0)
+  const [xCloud2, setXCloud2] = useState(0)
   useEffect(() => {
     const handleResize = () => {
       if(window.innerWidth < 850) {
         initXSun = 0;
         //currently some issues when resizing browser. for now just refresh.
-        setXCloud1(-5.1)
+        setXCloud1(-5.6)
         setXCloud2(0)
       } else {
         initXSun = 10
-        setXCloud1(3.3)
+        setXCloud1(2.2)
         setXCloud2(8.6)
       }
     }
@@ -272,15 +272,15 @@ function Scene({setTextCol}) {
       <Suspense fallback={null}>
         <CloudModel 
           position={[xCloud1, 7, 7]} 
-          scale={0.08} 
+          scale={0.1} 
           cloudColor={cloudColor} 
           // onPointerOver={() => setHovered(true)}
           // onPointerOut={() =>setHovered(false)}
           // onClick={() => navigate('/resume')}
         />
         <CloudModel 
-          position={[xCloud2, 7, 5]} 
-          scale={0.05} 
+          position={[xCloud2, 7.2, 5]} 
+          scale={0.06} 
           cloudColor={cloudColor}
           // onPointerOver={() => setHovered(true)}
           // onPointerOut={() =>setHovered(false)}

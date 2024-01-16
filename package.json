@@ -1,8 +1,9 @@
+
 {
   "name": "my-website-v4",
   "version": "0.1.0",
-  "homepage": "https://xanderchinxyz.github.io/react-gh-pages",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
     "@react-three/drei": "^9.68.3",

@@ -8,9 +8,9 @@ export default function Resume() {
         <>
         <div id="resume-container">
             <div id="title-container">
-                <h1 id="title">My Master Resume</h1>
+                <h1 id="title">Resume</h1>
             </div>
-            <iframe src="https://drive.google.com/file/d/1ePdv_ZxaeTg93yCuNdoc6c159zEiWi5Z/preview"></iframe>
+            <iframe src="https://drive.google.com/file/d/1HZMFyga9XTO07HIcuUQwb9gtJ_sJcJ3f/preview"></iframe>
         </div>
         </>
     )

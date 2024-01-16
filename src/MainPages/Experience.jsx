@@ -16,8 +16,9 @@ const posts = [
         title: 'Condominium Authority of Ontario | Data Analyst Intern',
         desc:
             <p>
-                Helped create a Python script to classify survey responses using the Hugging Face text classifier and 
-                generated charts and maps using Python, Pandas, Matplotlib and Excel.
+                Performed data cleaning and extraction of survey responses using Python and Pandas and 
+                wrote Python scripts to classify survey responses by modifying LLM text classifiers using TensorFlow.
+                Also created interactive maps of all Condominium Corporations in Ontario using Python, Pandas, Matplotlib and Excel.
             </p>
     },
     {
@@ -26,18 +27,19 @@ const posts = [
         projectTitle: 'Optimization of Solar Panel Placement on Arbitrary Buildings',
         desc: 
             <p>
-                Developed an algorithm to mount as many solar panels on an an arbitrarily-shaped building or object. 
+                Developed an optimization algorithm using Python and Blender to maximize the tiling of building-integrated 
+                photovoltaics (BIPV) on the external surfaces of arbitrarily shaped buildings or objects. 
                 Supports are then generated and modeled in Blender. This involves the use of complex packing algorithms, 
-                computational geometry, and Python.
+                computational geometry, and Python. Wrote up results into a first-author scientific paper currently under review with Nature Energy.
             </p>
     },      
     {
         imgSrc: Fast,
         title: 'FAST Lab | Undergraduate Researcher',
-        projectTitle: 'Recyclebot Construction',
         desc: 
             <p>
-                Researched and developed of a new version of the Recyclebot extruder that converts plastic 
+                Currently designing a wireless protocol and user interface for an open-source data acquisition and automation device.
+                Previously researched and developed of a new version of the Recyclebot extruder that converts plastic 
                 pellets into 3D printer filament.
             </p>
     },

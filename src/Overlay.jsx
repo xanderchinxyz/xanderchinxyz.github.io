@@ -1,6 +1,6 @@
 import './App.css';
 import { a } from '@react-spring/web'
-import { Routes, Route, useNavigate} from 'react-router-dom';
+import { Routes, Route, useNavigate, HashRouter, BrowserRouter, Navigate} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import {AiFillGithub} from 'react-icons/ai'
@@ -88,6 +88,7 @@ function Navbar() {
 function Overlay({fill}) {
     return (
         <a.div id="overlay-main" style={fill}>
+        {/* <HashRouter> */}
         <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>}/>
@@ -99,6 +100,7 @@ function Overlay({fill}) {
             <Route path="/resume" element={<Resume/>}/>
             <Route path="/pingpong" element={<PingPongLEDWall/>}/>
         </Routes>
+        {/* </HashRouter> */}
         </a.div>
     )
 }
